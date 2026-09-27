@@ -12,5 +12,6 @@ if (process.env.NODE_ENV === "development") {
     mount(devRoot);
   }
 }
+console.log("Hello from the marketing package!");
 
 export { mount };
